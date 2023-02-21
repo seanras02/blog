@@ -6,10 +6,11 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
     /*obviously het scrolt smooth naar boven*/
 }
 body{
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -17,11 +18,11 @@ body{
 header, footer{
     background-color: rgb(5, 12, 62);
     color: blanchedalmond;
-    height: 60px;
+    height: 6rem;
 }
 
 main{
-    padding: 40px;
+    padding: 4rem;
     min-height: 60vh;
 }
 
@@ -42,7 +43,7 @@ nav > ul{
     /*belangrijk*/
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 2rem;
     color: firebrick;
 }
 
@@ -61,27 +62,27 @@ nav > ul > li > a{
     width: 100%;
     display: block;
     text-align: center;
-    line-height: 60px;
+    line-height: 6rem;
     text-decoration: none;
 }
 
 footer > p{
     width:60vw;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 4rem;
 }
 
 h1{
     font-size: 250%;
-    margin-bottom: 20px;
-    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+    border-bottom: 0.1rem solid black;
     font-weight: 500;
 }
 
 section{
     width: 60vw;
     margin: 0 auto;
-    padding: 40px;
+    padding: 4rem;
 }
 
 article{
@@ -92,10 +93,10 @@ article{
 
 .box{
     width: 100%;
-    height: 400px;
+    height: 40rem;
     position: relative;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 .box > figure{
@@ -123,7 +124,7 @@ article{
     position: absolute;
     bottom: 0%;
     left: 0%;
-    padding: 40px;
+    padding: 4rem;
     color: white;
     width: 100%;
     height: 100%;
@@ -135,7 +136,7 @@ article{
 }
 
 figure{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 figure > img{
@@ -164,7 +165,7 @@ img:hover{
 }
 
 p{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 p:last-of-type{
@@ -180,18 +181,18 @@ figcaption{
 audio{
     display: block;
     width: 50%;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 video{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     border-radius: 5px;
 }
 
 .top{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     background: #101010;
     border: none;
     border-radius: 10px;
@@ -199,8 +200,8 @@ video{
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     position: fixed;
-    right: 120px;
-    bottom: 120px;
+    right: 12rem;
+    bottom: 12rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -211,7 +212,7 @@ video{
 }
 
 footer{
-    height: 60px;
+    height: 6rem;
     display: flex;
     align-items: center;
 
@@ -220,10 +221,10 @@ footer{
 footer > p{
     width: 60vw;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 4rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 100rem) {
         article{
             width: 80vw;
         }   
@@ -238,10 +239,10 @@ footer > p{
     }
    
     .top{
-        width: 60px;
-        height: 60px;
-        right: 60px;
-        bottom: 60px;
+        width: 6rem;
+        height: 6rem;
+        right: 6rem;
+        bottom: 6rem;
     }
 
     header{
@@ -256,19 +257,19 @@ footer > p{
         display: block; 
     }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60rem) {
     body{
-        font-size: 16px;
+        font-size: 1.6rem;
     }
     article{
         width: 100vw;
-        padding: 20px;
+        padding: 2rem;
     }
     h1{
         font-size: 180%;
     }
     footer > p{
         width: 100vw;
-        padding-left: 20px;
+        padding-left: 2rem;
     }
 }
